@@ -1,0 +1,48 @@
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<style>
+
+
+body 
+{
+  background-image: url('b.jpg');
+}
+font
+{
+font-size:32;
+background:white;
+}
+
+
+</style>
+</head>
+<body bgcolor="sea blue">
+
+ 
+</div>
+<div class="container">
+        <h1>Expiry Manager</h1>
+        <form id="productForm">
+            <input type="text" id="productName" placeholder="Product Name" required>
+            <input type="number" id="productQuantity" placeholder="Quantity" required>
+            <input type="date" id="expiryDate" required>
+            <button type="submit">Add Product</button>
+        </form>
+        <div id="notificationContainer" class="notification-container"></div>
+        <table id="productTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Quantity</th>
+                    <th>Expiry Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Products will be added here dynamically -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+ </body>
+</html>
